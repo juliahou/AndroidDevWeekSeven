@@ -55,7 +55,7 @@ public class EditNameDialogFragment extends DialogFragment {
                 WindowManager.LayoutParams.SOFT_INPUT_STATE_VISIBLE);
 
         // set listener
-        textListener = (TextListener) getActivity();
+        textListener = (TextListener) getParentFragment();
     }
 
     public interface TextListener {
